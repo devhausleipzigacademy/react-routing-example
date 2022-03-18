@@ -4,12 +4,12 @@ import { useParams } from "react-router-dom";
 import { PostType } from "../types";
 
 const BlogPost = () => {
-  const { id } = useParams();
+  const { postId } = useParams();
   const [post, setPost] = useState<PostType | null>(null);
 
   useEffect(() => {
     axios
-      .get(`http://localhost:3001/posts/${id}`)
+      .get(`http://localhost:3001/posts/${postId}`)
       .then((res) => setPost(res.data));
   }, []);
 

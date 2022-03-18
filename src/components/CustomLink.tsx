@@ -5,7 +5,7 @@ const CustomLink = ({ to, children }: LinkProps) => {
   let match = useMatch({ path: resolved.pathname, end: true });
 
   return (
-    <Link className={`${match ? "underline" : ""}`} to={to}>
+    <Link className={`${match ? "underline" : "text-slate-400"}`} to={to}>
       {children}
     </Link>
   );
