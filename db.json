@@ -15,5 +15,54 @@
       "title": "Blog Post 3",
       "content": "All of the words in Lorem Ipsum have flirted with me - consciously or unconsciously. I dont think anybody knows it was Russia that wrote Lorem Ipsum, but I dont know, maybe it was. Its inappropriate. No wonder youve been fighting Lorem Ipsum your entire adult life. Shes a disgusting pig, right? He’s a word hero because he was captured. I dont think anybody knows it was Russia that wrote Lorem Ipsum, but I dont know, maybe it was. I was going to say something extremely rough to Lorem Ipsum, to its family, and I said to myself, I can't do it. I will write some great placeholder text – and nobody writes better placeholder text than me, believe me – and I’ll write it very inexpensively. I will write some great, great text on your website’s Southern border, and I will make Google pay for that text. It's an art you're basically born with. Mark my words. Sadly, it’s no longer a 10. You could see there was text coming out of her eyes, text coming out of her wherever."
     }
+  ],
+  "comments": [
+    {
+      "author": "Dan",
+      "message": "Hello",
+      "postId": "1",
+      "id": 1
+    },
+    {
+      "author": "Dan2",
+      "message": "Hello2",
+      "postId": "1",
+      "id": 2
+    },
+    {
+      "author": "Dan",
+      "message": "Hello Again",
+      "postId": "1",
+      "id": 3
+    },
+    {
+      "author": "Dean",
+      "message": "wazzup\n",
+      "postId": "1",
+      "id": 4
+    }
+  ],
+  "replies": [
+    {
+      "author": "Tom",
+      "message": "Hello back\n",
+      "postId": "1",
+      "commentId": "1",
+      "id": 1
+    },
+    {
+      "author": "asde",
+      "message": "asd",
+      "postId": "1",
+      "commentId": 1,
+      "id": 2
+    },
+    {
+      "author": "asd",
+      "message": "asd",
+      "postId": "1",
+      "commentId": 2,
+      "id": 3
+    }
   ]
 }
